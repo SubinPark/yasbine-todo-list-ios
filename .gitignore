@@ -1,0 +1,37 @@
+ld Result ###
+build_result_*
+
+*~
+.DS_Store
+.LSOverride
+
+*.al
+*.la
+*.lo
+*.o
+*.so
+*.pyc
+*.pyo
+*.rej
+.*.swp
+.libs
+lto-llvm.o*
+
+### Xcode ###
+build/
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+xcdebugger
+xcuserdata
+*.xcuserdatad
+*.xcuserstate
+*.moved-aside
+*.xcbkptlist
